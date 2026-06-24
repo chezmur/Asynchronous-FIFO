@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="152.401 ns"></ZoomEndTime>
+      <Cursor1Time time="125.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="140"></NameColumnWidth>
+      <ValueColumnWidth column_width="162"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tb/w_clk" type="logic">
+      <obj_property name="ElementShortName">w_clk</obj_property>
+      <obj_property name="ObjectShortName">w_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/r_clk" type="logic">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/fifo/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/fifo/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/read_domain/r_graycode" type="array">
+      <obj_property name="ElementShortName">r_graycode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_graycode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/read_domain/w_grayptr" type="array">
+      <obj_property name="ElementShortName">w_grayptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w_grayptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/r_reset" type="logic">
+      <obj_property name="ElementShortName">r_reset</obj_property>
+      <obj_property name="ObjectShortName">r_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/w_reset" type="logic">
+      <obj_property name="ElementShortName">w_reset</obj_property>
+      <obj_property name="ObjectShortName">w_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/w_ptr" type="array">
+      <obj_property name="ElementShortName">w_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/r_ptr" type="array">
+      <obj_property name="ElementShortName">r_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/sync_write_ptr" type="array">
+      <obj_property name="ElementShortName">sync_write_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sync_write_ptr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/sync_read_ptr" type="array">
+      <obj_property name="ElementShortName">sync_read_ptr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sync_read_ptr[3:0]</obj_property>
+   </wvobject>
+</wave_config>
